@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stanidesis/toastyplugin.git"
+    "url": "git+https://github.com/rakeshorbonix/GooglePayPlugin.git"
   },
   "keywords": [
     "Toast",
@@ -26,10 +26,10 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "Stanley Idesis <stan.idesis@gmail.com>",
+  "author": "rakeshorbonix <rakesh@orbonix.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stanidesis/toastyplugin/issues"
+    "url": "https://github.com/rakeshorbonix/GooglePayPlugin/issues"
   },
-  "homepage": "https://github.com/stanidesis/toastyplugin/"
+  "homepage": "https://github.com/rakeshorbonix/GooglePayPlugin/"
 }
