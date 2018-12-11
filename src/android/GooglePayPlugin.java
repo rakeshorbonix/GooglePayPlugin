@@ -146,7 +146,7 @@ String currencyCode;
     requestPayment();
   }
 
-  
+
   /**
    * Create a Google Pay API base request object with properties used in all requests
    *
@@ -333,16 +333,13 @@ String currencyCode;
     mPaymentsClient.loadPaymentData(request);
     if (request!=null) {
       AutoResolveHelper.resolveTask(mPaymentsClient.loadPaymentData(request), cordova.getActivity(), LOAD_PAYMENT_DATA_REQUEST_CODE);
-      Toast toast1 = Toast.makeText(cordova.getActivity(), "called"+paymentDataRequestJson.toString(),Toast.LENGTH_LONG);
-      toast1.show();
+
     }
     }
 
     @Override
   public void onActivityResult(int requestCode, int resultCode, Intent data) {
     super.onActivityResult(requestCode,resultCode,data);
-    Toast toast1 = Toast.makeText(cordova.getActivity(), "onActivityResult",Toast.LENGTH_LONG);
-    toast1.show();
     PluginResult pluginResult;
     switch (requestCode) {
         // value passed in AutoResolveHelper
